@@ -24,6 +24,7 @@ skel:  ## Create skeleton node app
 	test -d lib || mkdir lib
 	test -d test || mkdir test
 	test -a index.js || touch index.js
+	npm install bunyan --save
 	npm install jshint mocha chai --save-dev
 
 help: ## Show help

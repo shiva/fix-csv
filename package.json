@@ -32,5 +32,8 @@
     "example": "examples",
     "test": "test"
   },
-  "dependencies": {}
+  "dependencies": {
+    "csv": "^0.4.6",
+    "yargs": "^3.29.0"
+  }
 }

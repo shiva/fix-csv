@@ -33,6 +33,7 @@
     "test": "test"
   },
   "dependencies": {
+    "bunyan": "^1.5.1",
     "csv": "^0.4.6",
     "yargs": "^3.29.0"
   }

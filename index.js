@@ -44,8 +44,8 @@ var log = bunyan.createLogger({
 });
 
 var output = [];
-var parser = parse({delimiter: ','})
-var input = fs.createReadStream(argv.file)
+var parser = parse({delimiter: ','});
+var input = fs.createReadStream(argv.file);
 var transformer = transform(function(data, callback){
     if (data.length > 5) {
         log.debug('Old record: %s', data);

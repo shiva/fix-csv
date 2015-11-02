@@ -7,8 +7,10 @@ Parse and fix CSV files to move between password managers
 
 - [x] Create Todo list
 - [x] Create Makefile
-- [ ] Import Dashlane
-- [ ] Export lastpass
+- [x] Import Dashlane
+- [x] Export lastpass
 - [ ] Export 1Password
 - [ ] Make generic?
+- [ ] Refactor core-logic into lib
+- [ ] write tests
 
